@@ -1,0 +1,24 @@
+.wpfcs-container input[type="button"],
+.wpfcs-container input[type="submit"],
+.wpfcs-container input[type="number"],
+.wpfcs-container input[type="email"],
+.wpfcs-container input[type="text"],
+.wpfcs-container textarea,
+.wpfcs-container button,
+.wpfcs-container select {
+    font-family: inherit;
+    font-size: inherit;
+    padding: 4px 12px;
+    height: auto;
+}
+
+.wpfcs-container input[type="email"],
+.wpfcs-container input[type="text"],
+.wpfcs-container textarea {
+    width: 100%;
+}
+
+.wpfcs-container label {
+    display: block;
+    font-size: 14px;
+}
